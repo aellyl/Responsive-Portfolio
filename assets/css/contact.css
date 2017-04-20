@@ -25,3 +25,28 @@ textarea{
 	border-color:#bbb;
 	margin:10px 0;
 }
+
+/*
+
+Below is for homework #2
+Media query CSS exercise
+
+*/
+
+/*Screen for 980px*/
+@media only screen and (max-width: 980px)
+{
+
+}
+
+/*Screen for 768px*/
+@media only screen and (max-width: 768px)
+{
+
+}
+
+/*Screen for 640px*/
+@media only screen and (max-width: 640px)
+{
+
+}

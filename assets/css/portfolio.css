@@ -19,3 +19,79 @@ label{
     padding:15px 0;
 
 }
+
+/*
+
+Below is for homework #2
+Media query CSS exercise
+
+*/
+
+/*Screen for 980px*/
+@media only screen and (max-width: 980px)
+{
+
+	.imageHolder{
+		
+		display:block;
+	}
+
+
+	label{
+		z-index:99;
+		width:100%;
+		height: auto;
+
+	}
+
+	section img{
+		margin:20px 0;
+	}
+
+}
+
+/*Screen for 768px*/
+@media only screen and (max-width: 768px)
+{
+
+	.imageHolder{
+		
+		display:inline;
+		margin:10px 5px;
+	}
+
+	label{
+		width:99%;
+	}
+
+	section img{
+		margin:0;
+		width:45%;
+		height:auto;
+		padding:20px 0;
+
+	}
+
+
+}
+
+/*Screen for 640px*/
+@media only screen and (max-width: 640px)
+{
+	.imageHolder{
+		
+		display:block;
+	}	
+
+	section img{
+		width:100%;
+		height:auto;
+		padding:20px 0;
+
+	}
+
+	label{
+		width:100%;
+	}
+
+}

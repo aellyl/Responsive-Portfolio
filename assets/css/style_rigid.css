@@ -1,3 +1,9 @@
+/*
+
+Original code from Hw1
+
+*/
+
 * {
 	color: #777777;
 
@@ -52,6 +58,7 @@ nav a{
 	padding:20px;
 	position:relative;
 	right:8%;
+  border-left: 1px solid #efefef;
 
 }
 
@@ -72,8 +79,6 @@ nav a:active {
     text-decoration: underline;
     color:#3BB7FF;
 }
-
-
 
 
 #wrapper {
@@ -162,3 +167,151 @@ aside img{
   position:relative;
   left:25px;
 }
+
+
+/*
+
+Below is for homework #2
+Media query CSS exercise
+
+*/
+
+/*Screen for 980px*/
+@media only screen and (max-width: 980px)
+{
+
+ section{
+    float:left;
+    width:50%;
+    background-color: #ffffff;
+    padding:30px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-color: #ddd;
+    border-style: solid;
+    
+
+ }
+
+  section img{
+      width:100%;
+      height:auto;
+      float:left;
+      margin-right:20px;
+      margin-bottom:20px;
+  } 
+
+}
+
+/*Screen for 768px*/
+@media only screen and (max-width: 768px)
+{
+  #wrapper{
+    left:0;
+  }
+  
+   section{
+    float:left;
+    width:100%;
+    max-width: 700px;
+    background-color: #ffffff;
+    padding:30px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-color: #ddd;
+    border-style: solid;
+  }
+
+  section img{
+      width:60%;
+      height:auto;
+      float:left;
+      margin-right:20px;
+      margin-bottom:20px;
+  } 
+
+  aside{
+    clear:both;
+    width:100%;
+    max-width:700px;
+    /*position:relative;
+    left:30px;*/
+    margin:20px auto;
+    text-align:left;
+    position:static;
+
+  } 
+  
+  aside img{
+    float:left;
+    width:50px;
+    height:50px;
+    margin:0 10px;
+    position:static;
+
+}
+ 
+
+}
+
+/*Screen for 640px*/
+@media only screen and (max-width: 640px)
+{
+  #wrapper{
+    left:0;
+  }
+  
+  header h1{
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    position:static;
+  }
+
+  nav{
+    border-left: 1px solid #efefef;
+    display:block;
+    width:100%;
+  }
+
+  nav a{
+    position:static;
+    padding:0 10%;
+
+  }
+
+  section{
+      width:100%;
+      max-width: 540px;
+  }
+
+  section img{
+      width:100%;
+      height:auto;
+      float:left;
+      margin-right:20px;
+      margin-bottom:20px;
+  } 
+
+  aside{
+    clear:both;
+    width:100%;
+    max-width:540px;
+    text-align:left;
+    position:static;
+
+  } 
+  
+  aside img{
+    float:left;
+    width:50px;
+    height:50px;
+    margin:0 10px;
+    position:static;
+
+}
+
+
+
+}
+
